@@ -1,0 +1,85 @@
+/* SETTING GENERALI */
+
+/* ! FONT SCRITTE */
+
+h2,h3,h4{
+font-family: 'Fraunces', serif;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+    font-family: krifon;
+    src: url(./media/Krifon\ Regular.otf);
+}
+
+
+/* ! COLORI SCRITTE E BG */
+:root{
+    --main:#f8f8f8;
+    --secondarycust:#f0e6dc;
+    --accent:#7O4F38;
+    --grigio:#E5E5E5;
+    --nero:#242424;
+}
+
+.txt-main{
+    color: var(--main);
+}
+.txt-secondarycust{
+    color:var(--secondarycust)
+}
+.txt-accent{
+    color:var(--accent)
+}
+.txt-grigio{
+    color: var(--grigio);
+}
+.txt-nero{
+    color: var(nero);
+}
+
+
+.bg-main{
+    background-color: var(--main);
+}
+.bg-secondarycust{
+    background-color:var(--secondarycust)
+}
+.bg-accent{
+    background-color:var(--accent)
+}
+.bg-grigio{
+    background-color: var(--grigio);
+}
+.bg-nero{
+    background-color: var(--nero);
+}
+/* ! HEADER */
+.img-header{
+    background-image: url(./media/header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: Krifon;
+   font-size: 150px;
+   background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+background-image: url(./media/sfondoh1.gif);
+filter: drop-shadow(0 0 0.75rem rgb(17, 16, 16));
+}
+
+@media screen and (max-width: 900px) {
+    h1{
+        font-size: 50px;
+        
+    }
+
+    .img-header{
+        background-position: left;
+    }
+    
+}
