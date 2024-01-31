@@ -18,7 +18,7 @@ font-family: 'Fraunces', serif;
 :root{
     --main:#f8f8f8;
     --secondarycust:#f0e6dc;
-    --accent:#7O4F38;
+    --accent: #704F38;
     --grigio:#E5E5E5;
     --nero:#242424;
 }
@@ -55,6 +55,20 @@ font-family: 'Fraunces', serif;
 .bg-nero{
     background-color: var(--nero);
 }
+
+/* ! NAVBAR */
+.logo-cust{
+    height: 40px;
+}
+.bottoneNavbar{
+    transition: 0.4s;
+}
+
+#mynavbar{
+    transition: 0.4s;
+}
+
+
 /* ! HEADER */
 .img-header{
     background-image: url(./media/header.png);
@@ -81,5 +95,5 @@ filter: drop-shadow(0 0 0.75rem rgb(17, 16, 16));
     .img-header{
         background-position: left;
     }
-    
+ 
 }
